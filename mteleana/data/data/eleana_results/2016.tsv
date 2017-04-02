@@ -1,0 +1,1149 @@
+=counta( r[2]c:r_c )	=sum( r[2]c:r_c )	=counta( r[2]c:r_c )		=sum( r[2]c:r_c )	= 100 * rc5 / rc2
+Constituency name	Electorate	Candidate	Party	Votes	County	Region
+
+Babergh	70628	Leave	Leave (EU)	29933	Suffolk	East Anglia
+		Remain	Remain (EU)	25309
+
+Basildon	132771	Leave	Leave (EU)	67251	Essex	Essex
+		Remain	Remain (EU)	30748
+
+Bedford	119530	Leave	Leave (EU)	44569	Bedfordshire	East Anglia
+		Remain	Remain (EU)	41497
+
+Braintree	112562	Leave	Leave (EU)	52713	Essex	Essex
+		Remain	Remain (EU)	33523
+
+Breckland	98989	Leave	Leave (EU)	47235	Norfolk	East Anglia
+		Remain	Remain (EU)	26313
+
+Brentwood	58777	Leave	Leave (EU)	27627	Essex	Essex
+		Remain	Remain (EU)	19077
+
+Broadland	99254	Leave	Leave (EU)	42268	Norfolk	East Anglia
+		Remain	Remain (EU)	35469
+
+Broxbourne	68997	Leave	Leave (EU)	33706	Hertfordshire	Essex
+		Remain	Remain (EU)	17166
+
+Cambridge	80108	Remain	Remain (EU)	42682	Cambridgeshire	East Anglia
+		Leave	Leave (EU)	15117
+
+Castle Point	68860	Leave	Leave (EU)	37691	Essex	Essex
+		Remain	Remain (EU)	14154
+
+Central Bedfordshire	204004	Leave	Leave (EU)	89134	Bedfordshire	East Anglia
+		Remain	Remain (EU)	69670
+
+Chelmsford	129971	Leave	Leave (EU)	53249	Essex	Essex
+		Remain	Remain (EU)	47545
+
+Colchester	127520	Leave	Leave (EU)	51305	Essex	Essex
+		Remain	Remain (EU)	44414
+
+Dacorum	108965	Leave	Leave (EU)	43702	Hertfordshire	Essex
+		Remain	Remain (EU)	42542
+
+East Cambridgeshire	62435	Leave	Leave (EU)	24487	Cambridgeshire	East Anglia
+		Remain	Remain (EU)	23599
+
+East Hertfordshire	106260	Leave	Leave (EU)	42994	Hertfordshire	Essex
+		Remain	Remain (EU)	42372
+
+Epping Forest	100016	Leave	Leave (EU)	48176	Essex	Essex
+		Remain	Remain (EU)	28676
+
+Fenland	71447	Leave	Leave (EU)	37571	Cambridgeshire	East Anglia
+		Remain	Remain (EU)	15055
+
+Forest Heath	38527	Leave	Leave (EU)	18160	Suffolk	East Anglia
+		Remain	Remain (EU)	9791
+
+Great Yarmouth	72634	Leave	Leave (EU)	35844	Norfolk	East Anglia
+		Remain	Remain (EU)	14284
+
+Harlow	59124	Leave	Leave (EU)	29602	Essex	Essex
+		Remain	Remain (EU)	13867
+
+Hertsmere	73295	Leave	Leave (EU)	28532	Hertfordshire	Essex
+		Remain	Remain (EU)	27593
+
+Huntingdonshire	128486	Leave	Leave (EU)	54198	Cambridgeshire	East Anglia
+		Remain	Remain (EU)	45729
+
+Ipswich	91574	Leave	Leave (EU)	38655	Suffolk	East Anglia
+		Remain	Remain (EU)	27698
+
+King's Lynn and West Norfolk	113884	Leave	Leave (EU)	56493	Norfolk	East Anglia
+		Remain	Remain (EU)	28587
+
+Luton	127612	Leave	Leave (EU)	47773	Bedfordshire	East Anglia
+		Remain	Remain (EU)	36708
+
+Maldon	49073	Leave	Leave (EU)	24302	Essex	Essex
+		Remain	Remain (EU)	14529
+
+Mid Suffolk	78325	Leave	Leave (EU)	33794	Suffolk	East Anglia
+		Remain	Remain (EU)	27391
+
+North Hertfordshire	99316	Remain	Remain (EU)	42234	Hertfordshire	Essex
+		Leave	Leave (EU)	35438
+
+North Norfolk	83065	Leave	Leave (EU)	37576	Norfolk	East Anglia
+		Remain	Remain (EU)	26214
+
+Norwich	96091	Remain	Remain (EU)	37326	Norfolk	East Anglia
+		Leave	Leave (EU)	29040
+
+Peterborough	120892	Leave	Leave (EU)	53216	Cambridgeshire	East Anglia
+		Remain	Remain (EU)	34176
+
+Rochford	66589	Leave	Leave (EU)	34937	Essex	Essex
+		Remain	Remain (EU)	17510
+
+South Cambridgeshire	114830	Remain	Remain (EU)	56128	Cambridgeshire	East Anglia
+		Leave	Leave (EU)	37061
+
+South Norfolk	102395	Leave	Leave (EU)	41541	Norfolk	East Anglia
+		Remain	Remain (EU)	38817
+
+Southend-on-Sea	128856	Leave	Leave (EU)	54522	Essex	Essex
+		Remain	Remain (EU)	39348
+
+St Albans	104859	Remain	Remain (EU)	54208	Hertfordshire	Essex
+		Leave	Leave (EU)	32237
+
+St Edmundsbury	81148	Leave	Leave (EU)	35224	Suffolk	East Anglia
+		Remain	Remain (EU)	26986
+
+Stevenage	62156	Leave	Leave (EU)	27126	Hertfordshire	Essex
+		Remain	Remain (EU)	18659
+
+Suffolk Coastal	98195	Leave	Leave (EU)	41966	Suffolk	East Anglia
+		Remain	Remain (EU)	37218
+
+Tendring	111167	Leave	Leave (EU)	57447	Essex	Essex
+		Remain	Remain (EU)	25210
+
+Three Rivers	67380	Leave	Leave (EU)	27097	Hertfordshire	Essex
+		Remain	Remain (EU)	25751
+
+Thurrock	109897	Leave	Leave (EU)	57765	Essex	Essex
+		Remain	Remain (EU)	22151
+
+Uttlesford	64735	Leave	Leave (EU)	26324	Essex	Essex
+		Remain	Remain (EU)	25619
+
+Watford	65060	Leave	Leave (EU)	23419	Hertfordshire	Essex
+		Remain	Remain (EU)	23167
+
+Waveney	90391	Leave	Leave (EU)	41290	Suffolk	East Anglia
+		Remain	Remain (EU)	24356
+
+Welwyn Hatfield	78146	Leave	Leave (EU)	31060	Hertfordshire	Essex
+		Remain	Remain (EU)	27550
+
+Amber Valley	96760	Leave	Leave (EU)	44501	Derbyshire	East Midlands
+		Remain	Remain (EU)	29319
+
+Ashfield	91916	Leave	Leave (EU)	46720	Nottinghamshire	East Midlands
+		Remain	Remain (EU)	20179
+
+Bassetlaw	85547	Leave	Leave (EU)	43392	Nottinghamshire	East Midlands
+		Remain	Remain (EU)	20575
+
+Blaby	73832	Leave	Leave (EU)	33583	Leicestershire	East Midlands
+		Remain	Remain (EU)	22888
+
+Bolsover	58063	Leave	Leave (EU)	29730	Derbyshire	East Midlands
+		Remain	Remain (EU)	12242
+
+Boston	39363	Leave	Leave (EU)	22974	Lincolnshire	Humberside
+		Remain	Remain (EU)	7430
+
+Broxtowe	83593	Leave	Leave (EU)	35754	Nottinghamshire	East Midlands
+		Remain	Remain (EU)	29672
+
+Charnwood	133780	Leave	Leave (EU)	50672	Leicestershire	East Midlands
+		Remain	Remain (EU)	43500
+
+Chesterfield	79905	Leave	Leave (EU)	34478	Derbyshire	East Midlands
+		Remain	Remain (EU)	22946
+
+Corby	43313	Leave	Leave (EU)	20611	Northamptonshire	East Anglia
+		Remain	Remain (EU)	11470
+
+Daventry	61004	Leave	Leave (EU)	28938	Northamptonshire	East Anglia
+		Remain	Remain (EU)	20443
+
+Derby	171246	Leave	Leave (EU)	69043	Derbyshire	East Midlands
+		Remain	Remain (EU)	51612
+
+Derbyshire Dales	57075	Leave	Leave (EU)	24095	Derbyshire	East Midlands
+		Remain	Remain (EU)	22633
+
+East Lindsey	107009	Leave	Leave (EU)	56613	Lincolnshire	Humberside
+		Remain	Remain (EU)	23515
+
+East Northamptonshire	68334	Leave	Leave (EU)	30894	Northamptonshire	East Anglia
+		Remain	Remain (EU)	21680
+
+Erewash	87596	Leave	Leave (EU)	40739	Derbyshire	East Midlands
+		Remain	Remain (EU)	25791
+
+Gedling	88298	Leave	Leave (EU)	37542	Nottinghamshire	East Midlands
+		Remain	Remain (EU)	30035
+
+Harborough	67420	Leave	Leave (EU)	27850	Leicestershire	East Midlands
+		Remain	Remain (EU)	27028
+
+High Peak	72487	Leave	Leave (EU)	27717	Derbyshire	East Midlands
+		Remain	Remain (EU)	27116
+
+Hinckley and Bosworth	85305	Leave	Leave (EU)	39501	Leicestershire	East Midlands
+		Remain	Remain (EU)	25969
+
+Kettering	70570	Leave	Leave (EU)	32877	Northamptonshire	East Anglia
+		Remain	Remain (EU)	21030
+
+Leicester	213819	Remain	Remain (EU)	70980	Leicestershire	East Midlands
+		Leave	Leave (EU)	67992
+
+Lincoln	63351	Leave	Leave (EU)	24992	Lincolnshire	Humberside
+		Remain	Remain (EU)	18902
+
+Mansfield	77624	Leave	Leave (EU)	39927	Nottinghamshire	East Midlands
+		Remain	Remain (EU)	16417
+
+Melton	37273	Leave	Leave (EU)	17610	Leicestershire	East Midlands
+		Remain	Remain (EU)	12695
+
+Newark and Sherwood	87338	Leave	Leave (EU)	40516	Nottinghamshire	East Midlands
+		Remain	Remain (EU)	26571
+
+North East Derbyshire	78855	Leave	Leave (EU)	37235	Derbyshire	East Midlands
+		Remain	Remain (EU)	22075
+
+North Kesteven	86468	Leave	Leave (EU)	42183	Lincolnshire	Humberside
+		Remain	Remain (EU)	25570
+
+North West Leicestershire	73944	Leave	Leave (EU)	34969	Leicestershire	East Midlands
+		Remain	Remain (EU)	22642
+
+Northampton	144948	Leave	Leave (EU)	61454	Northamptonshire	East Anglia
+		Remain	Remain (EU)	43805
+
+Nottingham	195394	Leave	Leave (EU)	61343	Nottinghamshire	East Midlands
+		Remain	Remain (EU)	59318
+
+Oadby and Wigston	42684	Leave	Leave (EU)	17173	Leicestershire	East Midlands
+		Remain	Remain (EU)	14292
+
+Rushcliffe	86401	Remain	Remain (EU)	40522	Nottinghamshire	East Midlands
+		Leave	Leave (EU)	29888
+
+Rutland	29390	Leave	Leave (EU)	11613	Leicestershire	East Midlands
+		Remain	Remain (EU)	11353
+
+South Derbyshire	73856	Leave	Leave (EU)	34216	Derbyshire	East Midlands
+		Remain	Remain (EU)	22479
+
+South Holland	65701	Leave	Leave (EU)	36423	Lincolnshire	Humberside
+		Remain	Remain (EU)	13074
+
+South Kesteven	105457	Leave	Leave (EU)	49424	Lincolnshire	Humberside
+		Remain	Remain (EU)	33047
+
+South Northamptonshire	71309	Leave	Leave (EU)	30771	Northamptonshire	East Anglia
+		Remain	Remain (EU)	25853
+
+Wellingborough	54572	Leave	Leave (EU)	25679	Northamptonshire	East Anglia
+		Remain	Remain (EU)	15462
+
+West Lindsey	73499	Leave	Leave (EU)	33847	Lincolnshire	Humberside
+		Remain	Remain (EU)	20906
+
+Barking and Dagenham	115812	Leave	Leave (EU)	46130	Barking and Dagenham	North London
+		Remain	Remain (EU)	27750
+
+Barnet	223467	Remain	Remain (EU)	100210	Barnet	North London
+		Leave	Leave (EU)	60823
+
+Bexley	170779	Leave	Leave (EU)	80886	Bexley	South London
+		Remain	Remain (EU)	47603
+
+Brent	186793	Remain	Remain (EU)	72523	Brent	North London
+		Leave	Leave (EU)	48881
+
+Bromley	231473	Remain	Remain (EU)	92398	Bromley	South London
+		Leave	Leave (EU)	90034
+
+Camden	145425	Remain	Remain (EU)	71295	Camden	North London
+		Leave	Leave (EU)	23838
+
+City of London	5987	Remain	Remain (EU)	3312	City of Westminster	North London
+		Leave	Leave (EU)	1087
+
+Croydon	245349	Remain	Remain (EU)	92913	Croydon	South London
+		Leave	Leave (EU)	78221
+
+Ealing	212991	Remain	Remain (EU)	90024	Ealing	South London
+		Leave	Leave (EU)	59017
+
+Enfield	198387	Remain	Remain (EU)	76425	Enfield	North London
+		Leave	Leave (EU)	60481
+
+Greenwich	168967	Remain	Remain (EU)	65248	Greenwich	South London
+		Leave	Leave (EU)	52117
+
+Hackney	163284	Remain	Remain (EU)	83398	Hackney	North London
+		Leave	Leave (EU)	22868
+
+Hammersmith and Fulham	114863	Remain	Remain (EU)	56188	Hammersmith and Fulham	North London
+		Leave	Leave (EU)	24054
+
+Haringey	150098	Remain	Remain (EU)	79991	Haringey	North London
+		Leave	Leave (EU)	25855
+
+Harrow	162397	Remain	Remain (EU)	64042	Harrow	North London
+		Leave	Leave (EU)	53183
+
+Havering	183082	Leave	Leave (EU)	96885	Havering	North London
+		Remain	Remain (EU)	42201
+
+Hillingdon	193033	Leave	Leave (EU)	74982	Hillingdon	South London
+		Remain	Remain (EU)	58040
+
+Hounslow	165050	Remain	Remain (EU)	58755	Hounslow	South London
+		Leave	Leave (EU)	56321
+
+Islington	144514	Remain	Remain (EU)	76420	Islington	North London
+		Leave	Leave (EU)	25180
+
+Kensington and Chelsea	83042	Remain	Remain (EU)	37601	Kensington and Chelsea	North London
+		Leave	Leave (EU)	17138
+
+Kingston upon Thames	108838	Remain	Remain (EU)	52533	Kingston upon Thames	South London
+		Leave	Leave (EU)	32737
+
+Lambeth	210800	Remain	Remain (EU)	111584	Lambeth	South London
+		Leave	Leave (EU)	30340
+
+Lewisham	197514	Remain	Remain (EU)	86955	Lewisham	South London
+		Leave	Leave (EU)	37518
+
+Merton	136352	Remain	Remain (EU)	63003	Merton	South London
+		Leave	Leave (EU)	37097
+
+Newham	176985	Remain	Remain (EU)	55328	Newham	North London
+		Leave	Leave (EU)	49371
+
+Redbridge	189843	Remain	Remain (EU)	69213	Redbridge	North London
+		Leave	Leave (EU)	59020
+
+Richmond upon Thames	132632	Remain	Remain (EU)	75396	Richmond upon Thames	South London
+		Leave	Leave (EU)	33410
+
+Southwark	195875	Remain	Remain (EU)	94293	Southwark	South London
+		Leave	Leave (EU)	35209
+
+Sutton	140288	Leave	Leave (EU)	57241	Sutton	South London
+		Remain	Remain (EU)	49319
+
+Tower Hamlets	167820	Remain	Remain (EU)	73011	Tower Hamlets	North London
+		Leave	Leave (EU)	35224
+
+Waltham Forest	162983	Remain	Remain (EU)	64156	Waltham Forest	North London
+		Leave	Leave (EU)	44395
+
+Wandsworth	219521	Remain	Remain (EU)	118463	Wandsworth	South London
+		Leave	Leave (EU)	39421
+
+Westminster	120524	Remain	Remain (EU)	53928	City of Westminster	North London
+		Leave	Leave (EU)	24268
+
+County Durham	389507	Leave	Leave (EU)	153877	Durham	North
+		Remain	Remain (EU)	113521
+
+Darlington	77662	Leave	Leave (EU)	30994	Cleveland	North
+		Remain	Remain (EU)	24172
+
+Gateshead	145866	Leave	Leave (EU)	58529	Newcastle area	North
+		Remain	Remain (EU)	44429
+
+Hartlepool	70341	Leave	Leave (EU)	32071	Cleveland	North
+		Remain	Remain (EU)	14029
+
+Middlesbrough	94612	Leave	Leave (EU)	40177	Cleveland	North
+		Remain	Remain (EU)	21181
+
+Newcastle upon Tyne	190735	Remain	Remain (EU)	65405	Newcastle area	North
+		Leave	Leave (EU)	63598
+
+North Tyneside	156993	Leave	Leave (EU)	60589	Newcastle area	North
+		Remain	Remain (EU)	52873
+
+Northumberland	240496	Leave	Leave (EU)	96699	Northumberland	North
+		Remain	Remain (EU)	82022
+
+Redcar and Cleveland	103529	Leave	Leave (EU)	48128	Cleveland	North
+		Remain	Remain (EU)	24586
+
+South Tyneside	115893	Leave	Leave (EU)	49065	Newcastle area	North
+		Remain	Remain (EU)	30014
+
+Stockton-on-Tees	141486	Leave	Leave (EU)	61982	Cleveland	North
+		Remain	Remain (EU)	38433
+
+Sunderland	207221	Leave	Leave (EU)	82394	Newcastle area	North
+		Remain	Remain (EU)	51930
+
+Allerdale	74426	Leave	Leave (EU)	31809	Cumbria	North
+		Remain	Remain (EU)	22429
+
+Barrow-in-Furness	53194	Leave	Leave (EU)	21867	Cumbria	North
+		Remain	Remain (EU)	14207
+
+Blackburn with Darwen	100117	Leave	Leave (EU)	36799	Lancashire	Lancashire
+		Remain	Remain (EU)	28522
+
+Blackpool	102354	Leave	Leave (EU)	45146	Lancashire	Lancashire
+		Remain	Remain (EU)	21781
+
+Bolton	197109	Leave	Leave (EU)	80491	Western Manchester	Greater Manchester
+		Remain	Remain (EU)	57589
+
+Burnley	64461	Leave	Leave (EU)	28854	Lancashire	Lancashire
+		Remain	Remain (EU)	14462
+
+Bury	141600	Leave	Leave (EU)	54674	Western Manchester	Greater Manchester
+		Remain	Remain (EU)	46354
+
+Carlisle	80124	Leave	Leave (EU)	35895	Cumbria	North
+		Remain	Remain (EU)	23788
+
+Cheshire East	285957	Leave	Leave (EU)	113163	Cheshire	Severn
+		Remain	Remain (EU)	107962
+
+Cheshire West and Chester	259878	Leave	Leave (EU)	98082	Cheshire	Severn
+		Remain	Remain (EU)	95455
+
+Chorley	84159	Leave	Leave (EU)	36098	Lancashire	Lancashire
+		Remain	Remain (EU)	27417
+
+Copeland	54206	Leave	Leave (EU)	23528	Cumbria	North
+		Remain	Remain (EU)	14419
+
+Eden	41872	Leave	Leave (EU)	16911	Western Manchester	Greater Manchester
+		Remain	Remain (EU)	14807
+
+Fylde	61174	Leave	Leave (EU)	26317	Lancashire	Lancashire
+		Remain	Remain (EU)	19889
+
+Halton	95289	Leave	Leave (EU)	37327	Cheshire	Severn
+		Remain	Remain (EU)	27678
+
+Hyndburn	62042	Leave	Leave (EU)	26568	Lancashire	Lancashire
+		Remain	Remain (EU)	13569
+
+Knowsley	111647	Leave	Leave (EU)	36558	Merseyside	Lancashire
+		Remain	Remain (EU)	34345
+
+Lancaster	100567	Leave	Leave (EU)	37309	Lancashire	Lancashire
+		Remain	Remain (EU)	35732
+
+Liverpool	317924	Remain	Remain (EU)	118453	Merseyside	Lancashire
+		Leave	Leave (EU)	85101
+
+Manchester	338064	Remain	Remain (EU)	121823	Central Manchester	Greater Manchester
+		Leave	Leave (EU)	79991
+
+Oldham	158084	Leave	Leave (EU)	65369	Eastern Manchester	Greater Manchester
+		Remain	Remain (EU)	42034
+
+Pendle	64534	Leave	Leave (EU)	28631	Lancashire	Lancashire
+		Remain	Remain (EU)	16704
+
+Preston	94284	Leave	Leave (EU)	34518	Lancashire	Lancashire
+		Remain	Remain (EU)	30227
+
+Ribble Valley	46148	Leave	Leave (EU)	20550	Lancashire	Lancashire
+		Remain	Remain (EU)	15892
+
+Rochdale	156621	Leave	Leave (EU)	62014	Eastern Manchester	Greater Manchester
+		Remain	Remain (EU)	41217
+
+Rossendale	52750	Leave	Leave (EU)	23169	Lancashire	Lancashire
+		Remain	Remain (EU)	15012
+
+Salford	173668	Leave	Leave (EU)	62385	Central Manchester	Greater Manchester
+		Remain	Remain (EU)	47430
+
+Sefton	206298	Remain	Remain (EU)	76702	Merseyside	Lancashire
+		Leave	Leave (EU)	71176
+
+South Lakeland	81948	Remain	Remain (EU)	34531	Cumbria	North
+		Leave	Leave (EU)	30800
+
+South Ribble	84573	Leave	Leave (EU)	37318	Lancashire	Lancashire
+		Remain	Remain (EU)	26406
+
+St. Helens	136096	Leave	Leave (EU)	54357	Merseyside	Lancashire
+		Remain	Remain (EU)	39322
+
+Stockport	221162	Remain	Remain (EU)	85559	Eastern Manchester	Greater Manchester
+		Leave	Leave (EU)	77930
+
+Tameside	168047	Leave	Leave (EU)	67829	Eastern Manchester	Greater Manchester
+		Remain	Remain (EU)	43118
+
+Trafford	165294	Remain	Remain (EU)	72293	Central Manchester	Greater Manchester
+		Leave	Leave (EU)	53018
+
+Warrington	157042	Leave	Leave (EU)	62487	Cheshire	Severn
+		Remain	Remain (EU)	52657
+
+West Lancashire	85834	Leave	Leave (EU)	35323	Lancashire	Lancashire
+		Remain	Remain (EU)	28546
+
+Wigan	235982	Leave	Leave (EU)	104331	Western Manchester	Greater Manchester
+		Remain	Remain (EU)	58942
+
+Wirral	242568	Remain	Remain (EU)	88931	Merseyside	Lancashire
+		Leave	Leave (EU)	83069
+
+Wyre	84471	Leave	Leave (EU)	40163	Lancashire	Lancashire
+		Remain	Remain (EU)	22816
+
+Northern Ireland	1260955	Remain	Remain (EU)	440707	Northern Ireland	Northern Ireland
+		Leave	Leave (EU)	349442
+
+Aberdeen City	154266	Remain	Remain (EU)	63985	Grampian	East Scotland
+		Leave	Leave (EU)	40729
+
+Aberdeenshire	196809	Remain	Remain (EU)	76445	Grampian	East Scotland
+		Leave	Leave (EU)	62516
+
+Angus	87137	Remain	Remain (EU)	32747	Tayside	East Scotland
+		Leave	Leave (EU)	26511
+
+Argyll and Bute	66642	Remain	Remain (EU)	29494	Argyll and Bute	West Scotland
+		Leave	Leave (EU)	19202
+
+City of Edinburgh	346073	Remain	Remain (EU)	187796	Edinburgh area	East Scotland
+		Leave	Leave (EU)	64498
+
+Clackmannanshire	37841	Remain	Remain (EU)	14691	Fife	East Scotland
+		Leave	Leave (EU)	10736
+
+Dumfries and Galloway	115837	Remain	Remain (EU)	43864	Dumfries and Galloway	West Scotland
+		Leave	Leave (EU)	38803
+
+Dundee City	105554	Remain	Remain (EU)	39688	Tayside	East Scotland
+		Leave	Leave (EU)	26697
+
+East Ayrshire	91977	Remain	Remain (EU)	33891	Ayrshire and Lanark	West Scotland
+		Leave	Leave (EU)	23942
+
+East Dunbartonshire	83031	Remain	Remain (EU)	44534	Glasgow area	West Scotland
+		Leave	Leave (EU)	17840
+
+East Lothian	77788	Remain	Remain (EU)	36026	Edinburgh area	East Scotland
+		Leave	Leave (EU)	19738
+
+East Renfrewshire	69575	Remain	Remain (EU)	39345	Glasgow area	West Scotland
+		Leave	Leave (EU)	13596
+
+Eilean Siar	21259	Remain	Remain (EU)	8232	Western Isles	East Scotland
+		Leave	Leave (EU)	6671
+
+Falkirk	117392	Remain	Remain (EU)	44987	Central	East Scotland
+		Leave	Leave (EU)	34271
+
+Fife	272995	Remain	Remain (EU)	106754	Fife	East Scotland
+		Leave	Leave (EU)	75466
+
+Glasgow City	449806	Remain	Remain (EU)	168335	Glasgow area	West Scotland
+		Leave	Leave (EU)	84474
+
+Highland	175563	Remain	Remain (EU)	70308	Highland	East Scotland
+		Leave	Leave (EU)	55349
+
+Inverclyde	58624	Remain	Remain (EU)	24688	Glasgow area	West Scotland
+		Leave	Leave (EU)	14010
+
+Midlothian	66758	Remain	Remain (EU)	28217	Edinburgh area	East Scotland
+		Leave	Leave (EU)	17251
+
+Moray	71370	Remain	Remain (EU)	24114	Grampian	East Scotland
+		Leave	Leave (EU)	23992
+
+North Ayrshire	104572	Remain	Remain (EU)	38394	Ayrshire and Lanark	West Scotland
+		Leave	Leave (EU)	29110
+
+North Lanarkshire	254567	Remain	Remain (EU)	95549	Ayrshire and Lanark	West Scotland
+		Leave	Leave (EU)	59400
+
+Orkney Islands	16658	Remain	Remain (EU)	7189	Orkney and Shetland	East Scotland
+		Leave	Leave (EU)	4193
+
+Perth and Kinross	110224	Remain	Remain (EU)	49641	Tayside	East Scotland
+		Leave	Leave (EU)	31614
+
+Renfrewshire	127294	Remain	Remain (EU)	57119	Glasgow area	West Scotland
+		Leave	Leave (EU)	31010
+
+Scottish Borders	88440	Remain	Remain (EU)	37952	Borders	East Scotland
+		Leave	Leave (EU)	26962
+
+Shetland Islands	17375	Remain	Remain (EU)	6907	Orkney and Shetland	East Scotland
+		Leave	Leave (EU)	5315
+
+South Ayrshire	88116	Remain	Remain (EU)	36265	Ayrshire and Lanark	West Scotland
+		Leave	Leave (EU)	25241
+
+South Lanarkshire	248949	Remain	Remain (EU)	102568	Ayrshire and Lanark	West Scotland
+		Leave	Leave (EU)	60024
+
+Stirling	66100	Remain	Remain (EU)	33112	Central	East Scotland
+		Leave	Leave (EU)	15787
+
+West Dunbartonshire	67595	Remain	Remain (EU)	26794	Glasgow area	West Scotland
+		Leave	Leave (EU)	16426
+
+West Lothian	130925	Remain	Remain (EU)	51560	Edinburgh area	East Scotland
+		Leave	Leave (EU)	36948
+
+Adur	48755	Leave	Leave (EU)	20315	West Sussex	South East
+		Remain	Remain (EU)	16914
+
+Arun	117138	Leave	Leave (EU)	56936	West Sussex	South East
+		Remain	Remain (EU)	34193
+
+Ashford	90516	Leave	Leave (EU)	41472	Kent	South East
+		Remain	Remain (EU)	28314
+
+Aylesbury Vale	136235	Leave	Leave (EU)	53956	Buckinghamshire	Essex
+		Remain	Remain (EU)	52877
+
+Basingstoke and Deane	128677	Leave	Leave (EU)	52071	Hampshire	South
+		Remain	Remain (EU)	48257
+
+Bracknell Forest	85298	Leave	Leave (EU)	35002	Berkshire	South
+		Remain	Remain (EU)	29888
+
+Brighton and Hove	198293	Remain	Remain (EU)	100648	East Sussex	South East
+		Leave	Leave (EU)	46027
+
+Canterbury	109399	Leave	Leave (EU)	41879	Kent	South East
+		Remain	Remain (EU)	40169
+
+Cherwell	108342	Leave	Leave (EU)	41168	Oxfordshire	West
+		Remain	Remain (EU)	40668
+
+Chichester	91659	Leave	Leave (EU)	36326	West Sussex	South East
+		Remain	Remain (EU)	35011
+
+Chiltern	70185	Remain	Remain (EU)	32241	Buckinghamshire	Essex
+		Leave	Leave (EU)	26363
+
+Crawley	73575	Leave	Leave (EU)	31447	West Sussex	South East
+		Remain	Remain (EU)	22388
+
+Dartford	73951	Leave	Leave (EU)	35870	Kent	South East
+		Remain	Remain (EU)	19985
+
+Dover	85011	Leave	Leave (EU)	40410	Kent	South East
+		Remain	Remain (EU)	24606
+
+East Hampshire	90588	Remain	Remain (EU)	37346	Hampshire	South
+		Leave	Leave (EU)	36576
+
+Eastbourne	71726	Leave	Leave (EU)	30700	East Sussex	South East
+		Remain	Remain (EU)	22845
+
+Eastleigh	97280	Leave	Leave (EU)	39902	Hampshire	South
+		Remain	Remain (EU)	36172
+
+Elmbridge	98613	Remain	Remain (EU)	45841	Surrey	South
+		Leave	Leave (EU)	31162
+
+Epsom and Ewell	56382	Remain	Remain (EU)	23596	Surrey	South
+		Leave	Leave (EU)	21707
+
+Fareham	90175	Leave	Leave (EU)	39525	Hampshire	South
+		Remain	Remain (EU)	32210
+
+Gosport	62781	Leave	Leave (EU)	29456	Hampshire	South
+		Remain	Remain (EU)	16671
+
+Gravesham	72808	Leave	Leave (EU)	35643	Kent	South East
+		Remain	Remain (EU)	18876
+
+Guildford	102209	Remain	Remain (EU)	44155	Surrey	South
+		Leave	Leave (EU)	34458
+
+Hart	69946	Remain	Remain (EU)	30282	Hampshire	South
+		Leave	Leave (EU)	27513
+
+Hastings	61957	Leave	Leave (EU)	24339	East Sussex	South East
+		Remain	Remain (EU)	20011
+
+Havant	95366	Leave	Leave (EU)	44047	Hampshire	South
+		Remain	Remain (EU)	26582
+
+Horsham	104270	Remain	Remain (EU)	43785	West Sussex	South East
+		Leave	Leave (EU)	41303
+
+Isle of Wight	109844	Leave	Leave (EU)	49173	Hampshire	South
+		Remain	Remain (EU)	30207
+
+Lewes	76428	Remain	Remain (EU)	30974	East Sussex	South East
+		Leave	Leave (EU)	28508
+
+Maidstone	117298	Leave	Leave (EU)	52365	Kent	South East
+		Remain	Remain (EU)	36762
+
+Medway	192524	Leave	Leave (EU)	88997	Kent	South East
+		Remain	Remain (EU)	49889
+
+Mid Sussex	108416	Remain	Remain (EU)	46471	West Sussex	South East
+		Leave	Leave (EU)	41057
+
+Milton Keynes	177211	Leave	Leave (EU)	67063	Buckinghamshire	Essex
+		Remain	Remain (EU)	63393
+
+Mole Valley	66730	Remain	Remain (EU)	29088	Surrey	South
+		Leave	Leave (EU)	25708
+
+New Forest	141061	Leave	Leave (EU)	64541	Hampshire	South
+		Remain	Remain (EU)	47199
+
+Oxford	97331	Remain	Remain (EU)	49424	Oxfordshire	West
+		Leave	Leave (EU)	20913
+
+Portsmouth	140517	Leave	Leave (EU)	57336	Hampshire	South
+		Remain	Remain (EU)	41384
+
+Reading	103172	Remain	Remain (EU)	43385	Berkshire	South
+		Leave	Leave (EU)	31382
+
+Reigate and Banstead	103731	Leave	Leave (EU)	40980	Surrey	South
+		Remain	Remain (EU)	40181
+
+Rother	72755	Leave	Leave (EU)	33753	East Sussex	South East
+		Remain	Remain (EU)	23916
+
+Runnymede	58272	Leave	Leave (EU)	24035	Surrey	South
+		Remain	Remain (EU)	20259
+
+Rushmoor	65790	Leave	Leave (EU)	28396	Hampshire	South
+		Remain	Remain (EU)	20384
+
+Sevenoaks	87253	Leave	Leave (EU)	38258	Kent	South East
+		Remain	Remain (EU)	32091
+
+Shepway	80879	Leave	Leave (EU)	37729	Kent	South East
+		Remain	Remain (EU)	22884
+
+Slough	87873	Leave	Leave (EU)	29631	Berkshire	South
+		Remain	Remain (EU)	24911
+
+South Bucks	52194	Leave	Leave (EU)	20647	Buckinghamshire	Essex
+		Remain	Remain (EU)	20077
+
+South Oxfordshire	104231	Remain	Remain (EU)	46245	Oxfordshire	West
+		Leave	Leave (EU)	37865
+
+Southampton	158171	Leave	Leave (EU)	57927	Hampshire	South
+		Remain	Remain (EU)	49738
+
+Spelthorne	72674	Leave	Leave (EU)	34135	Surrey	South
+		Remain	Remain (EU)	22474
+
+Surrey Heath	65569	Leave	Leave (EU)	26667	Surrey	South
+		Remain	Remain (EU)	25638
+
+Swale	102209	Leave	Leave (EU)	47388	Kent	South East
+		Remain	Remain (EU)	28481
+
+Tandridge	64044	Leave	Leave (EU)	27169	Surrey	South
+		Remain	Remain (EU)	24251
+
+Test Valley	94559	Leave	Leave (EU)	39091	Hampshire	South
+		Remain	Remain (EU)	36170
+
+Thanet	99108	Leave	Leave (EU)	46037	Kent	South East
+		Remain	Remain (EU)	26065
+
+Tonbridge and Malling	93019	Leave	Leave (EU)	41229	Kent	South East
+		Remain	Remain (EU)	32792
+
+Tunbridge Wells	82181	Remain	Remain (EU)	35676	Kent	South East
+		Leave	Leave (EU)	29320
+
+Vale of White Horse	94487	Remain	Remain (EU)	43462	Oxfordshire	West
+		Leave	Leave (EU)	33192
+
+Waverley	92291	Remain	Remain (EU)	44341	Surrey	South
+		Leave	Leave (EU)	31601
+
+Wealden	121141	Leave	Leave (EU)	52808	East Sussex	South East
+		Remain	Remain (EU)	44084
+
+West Berkshire	116757	Remain	Remain (EU)	48300	Berkshire	South
+		Leave	Leave (EU)	44977
+
+West Oxfordshire	82441	Remain	Remain (EU)	35236	Oxfordshire	West
+		Leave	Leave (EU)	30435
+
+Winchester	89595	Remain	Remain (EU)	42878	Hampshire	South
+		Leave	Leave (EU)	29886
+
+Windsor and Maidenhead	102665	Remain	Remain (EU)	44086	Berkshire	South
+		Leave	Leave (EU)	37706
+
+Woking	71313	Remain	Remain (EU)	31007	Surrey	South
+		Leave	Leave (EU)	24214
+
+Wokingham	121891	Remain	Remain (EU)	55272	Berkshire	South
+		Leave	Leave (EU)	42229
+
+Worthing	81384	Leave	Leave (EU)	32515	West Sussex	South East
+		Remain	Remain (EU)	28851
+
+Wycombe	125260	Remain	Remain (EU)	49261	Buckinghamshire	Essex
+		Leave	Leave (EU)	45529
+
+Bath and North East Somerset	136522	Remain	Remain (EU)	60878	Bristol Area	West
+		Leave	Leave (EU)	44352
+
+Bournemouth	132752	Leave	Leave (EU)	50453	Dorset	South West
+		Remain	Remain (EU)	41473
+
+Bristol, City of	312465	Remain	Remain (EU)	141027	Bristol Area	West
+		Leave	Leave (EU)	87418
+
+Cheltenham	87060	Remain	Remain (EU)	37081	Gloucestershire	West
+		Leave	Leave (EU)	28932
+
+Christchurch	39176	Leave	Leave (EU)	18268	Dorset	South West
+		Remain	Remain (EU)	12782
+
+Cornwall	419755	Leave	Leave (EU)	182665	Cornwall	South West
+		Remain	Remain (EU)	140540
+
+Cotswold	68734	Remain	Remain (EU)	28015	Gloucestershire	West
+		Leave	Leave (EU)	26806
+
+East Devon	112527	Leave	Leave (EU)	48040	Devon	South West
+		Remain	Remain (EU)	40743
+
+East Dorset	71966	Leave	Leave (EU)	33702	Dorset	South West
+		Remain	Remain (EU)	24786
+
+Exeter	86417	Remain	Remain (EU)	35270	Devon	South West
+		Leave	Leave (EU)	28533
+
+Forest of Dean	66705	Leave	Leave (EU)	30251	Gloucestershire	West
+		Remain	Remain (EU)	21392
+
+Gibraltar	24119	Remain	Remain (EU)	19322	Cornwall	South West
+		Leave	Leave (EU)	823
+
+Gloucester	89661	Leave	Leave (EU)	37776	Gloucestershire	West
+		Remain	Remain (EU)	26801
+
+Isles of Scilly	1799	Remain	Remain (EU)	803	Cornwall	South West
+		Leave	Leave (EU)	621
+
+Mendip	85068	Remain	Remain (EU)	33427	Somerset	South West
+		Leave	Leave (EU)	32028
+
+Mid Devon	60532	Leave	Leave (EU)	25606	Devon	South West
+		Remain	Remain (EU)	22400
+
+North Devon	75548	Leave	Leave (EU)	33100	Devon	South West
+		Remain	Remain (EU)	24931
+
+North Dorset	52980	Leave	Leave (EU)	23802	Dorset	South West
+		Remain	Remain (EU)	18399
+
+North Somerset	160860	Leave	Leave (EU)	64976	Bristol Area	West
+		Remain	Remain (EU)	59572
+
+Plymouth	186989	Leave	Leave (EU)	79997	Devon	South West
+		Remain	Remain (EU)	53458
+
+Poole	113421	Leave	Leave (EU)	49707	Dorset	South West
+		Remain	Remain (EU)	35741
+
+Purbeck	36418	Leave	Leave (EU)	16966	Dorset	South West
+		Remain	Remain (EU)	11754
+
+Sedgemoor	89714	Leave	Leave (EU)	41869	Somerset	South West
+		Remain	Remain (EU)	26545
+
+South Gloucestershire	207793	Leave	Leave (EU)	83405	Gloucestershire	West
+		Remain	Remain (EU)	74928
+
+South Hams	69121	Remain	Remain (EU)	29308	Devon	South West
+		Leave	Leave (EU)	26142
+
+South Somerset	126495	Leave	Leave (EU)	56940	Somerset	South West
+		Remain	Remain (EU)	42527
+
+Stroud	92631	Remain	Remain (EU)	40446	Gloucestershire	West
+		Leave	Leave (EU)	33618
+
+Swindon	148960	Leave	Leave (EU)	61745	Wiltshire	West
+		Remain	Remain (EU)	51220
+
+Taunton Deane	84164	Leave	Leave (EU)	34789	Somerset	South West
+		Remain	Remain (EU)	30944
+
+Teignbridge	103740	Leave	Leave (EU)	44363	Devon	South West
+		Remain	Remain (EU)	37949
+
+Tewkesbury	67831	Leave	Leave (EU)	28568	Gloucestershire	West
+		Remain	Remain (EU)	25084
+
+Torbay	102961	Leave	Leave (EU)	47889	Devon	South West
+		Remain	Remain (EU)	27935
+
+Torridge	52881	Leave	Leave (EU)	25200	Devon	South West
+		Remain	Remain (EU)	16229
+
+West Devon	43823	Leave	Leave (EU)	18937	Devon	South West
+		Remain	Remain (EU)	16658
+
+West Dorset	82071	Leave	Leave (EU)	33267	Dorset	South West
+		Remain	Remain (EU)	31924
+
+West Somerset	27478	Leave	Leave (EU)	13168	Somerset	South West
+		Remain	Remain (EU)	8566
+
+Weymouth and Portland	50442	Leave	Leave (EU)	23352	Dorset	South West
+		Remain	Remain (EU)	14903
+
+Wiltshire	366555	Leave	Leave (EU)	151637	Wiltshire	West
+		Remain	Remain (EU)	137258
+
+Blaenau Gwent	51136	Leave	Leave (EU)	21587	Mid Glamorgan and Gwent	Wales
+		Remain	Remain (EU)	13215
+
+Bridgend	104492	Leave	Leave (EU)	40622	Mid Glamorgan and Gwent	Wales
+		Remain	Remain (EU)	33723
+
+Caerphilly	130801	Leave	Leave (EU)	53295	Mid Glamorgan and Gwent	Wales
+		Remain	Remain (EU)	39178
+
+Cardiff	243689	Remain	Remain (EU)	101788	South Glamorgan	Wales
+		Leave	Leave (EU)	67816
+
+Carmarthenshire	139227	Leave	Leave (EU)	55381	Dyfed	Wales
+		Remain	Remain (EU)	47654
+
+Ceredigion	53400	Remain	Remain (EU)	21711	Dyfed	Wales
+		Leave	Leave (EU)	18031
+
+Conwy	91368	Leave	Leave (EU)	35357	Clwyd	Wales
+		Remain	Remain (EU)	30147
+
+Denbighshire	75362	Leave	Leave (EU)	28117	Clwyd	Wales
+		Remain	Remain (EU)	23955
+
+Flintshire	115964	Leave	Leave (EU)	48930	Clwyd	Wales
+		Remain	Remain (EU)	37867
+
+Gwynedd	84575	Remain	Remain (EU)	35517	Gwynedd	Wales
+		Leave	Leave (EU)	25665
+
+Isle of Anglesey	51445	Leave	Leave (EU)	19333	Gwynedd	Wales
+		Remain	Remain (EU)	18618
+
+Merthyr Tydfil	42855	Leave	Leave (EU)	16291	Mid Glamorgan and Gwent	Wales
+		Remain	Remain (EU)	12574
+
+Monmouthshire	71607	Remain	Remain (EU)	28061	Mid Glamorgan and Gwent	Wales
+		Leave	Leave (EU)	27569
+
+Neath Port Talbot	105766	Leave	Leave (EU)	43001	West Glamorgan	Wales
+		Remain	Remain (EU)	32651
+
+Newport	104977	Leave	Leave (EU)	41236	Mid Glamorgan and Gwent	Wales
+		Remain	Remain (EU)	32413
+
+Pembrokeshire	92155	Leave	Leave (EU)	39155	Dyfed	Wales
+		Remain	Remain (EU)	29367
+
+Powys	103270	Leave	Leave (EU)	42707	Powys	Wales
+		Remain	Remain (EU)	36762
+
+Rhondda Cynon Taf	172890	Leave	Leave (EU)	62590	Mid Glamorgan and Gwent	Wales
+		Remain	Remain (EU)	53973
+
+Swansea	172941	Leave	Leave (EU)	61936	West Glamorgan	Wales
+		Remain	Remain (EU)	58307
+
+Torfaen	68957	Leave	Leave (EU)	28781	Mid Glamorgan and Gwent	Wales
+		Remain	Remain (EU)	19363
+
+Vale of Glamorgan	95011	Remain	Remain (EU)	36681	South Glamorgan	Wales
+		Leave	Leave (EU)	35628
+
+Wrexham	98384	Leave	Leave (EU)	41544	Clwyd	Wales
+		Remain	Remain (EU)	28822
+
+Birmingham	707293	Leave	Leave (EU)	227251	Birmingham	West Midlands
+		Remain	Remain (EU)	223451
+
+Bromsgrove	74170	Leave	Leave (EU)	32563	Hereford and Worcestershire	Severn
+		Remain	Remain (EU)	26252
+
+Cannock Chase	75010	Leave	Leave (EU)	36894	Staffordshire	Severn
+		Remain	Remain (EU)	16684
+
+Coventry	221389	Leave	Leave (EU)	85097	West Midlands	West Midlands
+		Remain	Remain (EU)	67967
+
+Dudley	244516	Leave	Leave (EU)	118446	West Midlands	West Midlands
+		Remain	Remain (EU)	56780
+
+East Staffordshire	83558	Leave	Leave (EU)	39266	Staffordshire	Severn
+		Remain	Remain (EU)	22850
+
+Herefordshire, County of	138247	Leave	Leave (EU)	64122	Hereford and Worcestershire	Severn
+		Remain	Remain (EU)	44148
+
+Lichfield	80369	Leave	Leave (EU)	37214	Staffordshire	Severn
+		Remain	Remain (EU)	26064
+
+Malvern Hills	60217	Leave	Leave (EU)	25294	Hereford and Worcestershire	Severn
+		Remain	Remain (EU)	23203
+
+Newcastle-under-Lyme	92816	Leave	Leave (EU)	43457	Staffordshire	Severn
+		Remain	Remain (EU)	25477
+
+North Warwickshire	49790	Leave	Leave (EU)	25385	Warwickshire	East Midlands
+		Remain	Remain (EU)	12569
+
+Nuneaton and Bedworth	93978	Leave	Leave (EU)	46095	Warwickshire	East Midlands
+		Remain	Remain (EU)	23736
+
+Redditch	61038	Leave	Leave (EU)	28579	Hereford and Worcestershire	Severn
+		Remain	Remain (EU)	17303
+
+Rugby	74137	Leave	Leave (EU)	33199	Warwickshire	East Midlands
+		Remain	Remain (EU)	25350
+
+Sandwell	221429	Leave	Leave (EU)	98250	West Midlands	West Midlands
+		Remain	Remain (EU)	49004
+
+Shropshire	236788	Leave	Leave (EU)	104166	Shropshire	Severn
+		Remain	Remain (EU)	78987
+
+Solihull	160425	Leave	Leave (EU)	68484	West Midlands	West Midlands
+		Remain	Remain (EU)	53466
+
+South Staffordshire	85777	Leave	Leave (EU)	43248	Staffordshire	Severn
+		Remain	Remain (EU)	23444
+
+Stafford	99612	Leave	Leave (EU)	43386	Staffordshire	Severn
+		Remain	Remain (EU)	34098
+
+Staffordshire Moorlands	79347	Leave	Leave (EU)	38684	Staffordshire	Severn
+		Remain	Remain (EU)	21076
+
+Stoke-on-Trent	179010	Leave	Leave (EU)	81563	Staffordshire	Severn
+		Remain	Remain (EU)	36027
+
+Stratford-on-Avon	98014	Leave	Leave (EU)	40817	Warwickshire	East Midlands
+		Remain	Remain (EU)	38341
+
+Tamworth	56825	Leave	Leave (EU)	28424	Staffordshire	Severn
+		Remain	Remain (EU)	13705
+
+Telford and Wrekin	124338	Leave	Leave (EU)	56649	Shropshire	Severn
+		Remain	Remain (EU)	32954
+
+Walsall	194729	Leave	Leave (EU)	92007	West Midlands	West Midlands
+		Remain	Remain (EU)	43572
+
+Warwick	103099	Remain	Remain (EU)	47976	Warwickshire	East Midlands
+		Leave	Leave (EU)	33642
+
+Wolverhampton	174760	Leave	Leave (EU)	73798	West Midlands	West Midlands
+		Remain	Remain (EU)	44138
+
+Worcester	73516	Leave	Leave (EU)	29114	Hereford and Worcestershire	Severn
+		Remain	Remain (EU)	25125
+
+Wychavon	94497	Leave	Leave (EU)	44201	Hereford and Worcestershire	Severn
+		Remain	Remain (EU)	32188
+
+Wyre Forest	77878	Leave	Leave (EU)	36392	Hereford and Worcestershire	Severn
+		Remain	Remain (EU)	21240
+
+Barnsley	175809	Leave	Leave (EU)	83958	South Yorkshire	Humberside
+		Remain	Remain (EU)	38951
+
+Bradford	342817	Leave	Leave (EU)	123913	West Yorkshire	Yorkshire
+		Remain	Remain (EU)	104575
+
+Calderdale	149195	Leave	Leave (EU)	58975	West Yorkshire	Yorkshire
+		Remain	Remain (EU)	46950
+
+Craven	44320	Leave	Leave (EU)	18961	North Yorkshire	Yorkshire
+		Remain	Remain (EU)	16930
+
+Doncaster	217432	Leave	Leave (EU)	104260	South Yorkshire	Humberside
+		Remain	Remain (EU)	46922
+
+East Riding of Yorkshire	266047	Leave	Leave (EU)	120136	Humberside	Humberside
+		Remain	Remain (EU)	78779
+
+Hambleton	70133	Leave	Leave (EU)	29502	North Yorkshire	Yorkshire
+		Remain	Remain (EU)	25480
+
+Harrogate	119987	Remain	Remain (EU)	48211	North Yorkshire	Yorkshire
+		Leave	Leave (EU)	46374
+
+Kingston upon Hull, City of	180230	Leave	Leave (EU)	76646	Humberside	Humberside
+		Remain	Remain (EU)	36709
+
+Kirklees	307081	Leave	Leave (EU)	118755	West Yorkshire	Yorkshire
+		Remain	Remain (EU)	98485
+
+Leeds	543033	Remain	Remain (EU)	194863	West Yorkshire	Yorkshire
+		Leave	Leave (EU)	192474
+
+North East Lincolnshire	116302	Leave	Leave (EU)	55185	Lincolnshire	Humberside
+		Remain	Remain (EU)	23797
+
+North Lincolnshire	123611	Leave	Leave (EU)	58915	Lincolnshire	Humberside
+		Remain	Remain (EU)	29947
+
+Richmondshire	36794	Leave	Leave (EU)	15691	North Yorkshire	Yorkshire
+		Remain	Remain (EU)	11945
+
+Rotherham	197623	Leave	Leave (EU)	93272	South Yorkshire	Humberside
+		Remain	Remain (EU)	44115
+
+Ryedale	41529	Leave	Leave (EU)	17710	North Yorkshire	Yorkshire
+		Remain	Remain (EU)	14340
+
+Scarborough	82900	Leave	Leave (EU)	37512	North Yorkshire	Yorkshire
+		Remain	Remain (EU)	22999
+
+Selby	65278	Leave	Leave (EU)	30532	North Yorkshire	Yorkshire
+		Remain	Remain (EU)	21071
+
+Sheffield	396406	Leave	Leave (EU)	136018	South Yorkshire	Humberside
+		Remain	Remain (EU)	130735
+
+Wakefield	246096	Leave	Leave (EU)	116165	West Yorkshire	Yorkshire
+		Remain	Remain (EU)	58877
+
+York	155157	Remain	Remain (EU)	63617	North Yorkshire	Yorkshire
+		Leave	Leave (EU)	45983
+

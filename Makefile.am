@@ -1,1 +1,1 @@
-SUBDIRS = libmtcelledit/src
+SUBDIRS = libmtkit/src

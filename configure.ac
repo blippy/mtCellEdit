@@ -6,10 +6,12 @@ AC_CONFIG_MACRO_DIRS([m4])
 
 
 LT_INIT
+AC_PROG_YACC
 AC_PROG_CXX
 AC_PROG_YACC
 
-AC_CONFIG_FILES([Makefile libmtkit/src/Makefile libmtcedui/src/Makefile
+AC_CONFIG_FILES([Makefile libmtkit/src/Makefile \
+		 libmtcelledit/src/Makefile libmtcedui/src/Makefile
 		 mtcedcli/src/Makefile])
 AC_OUTPUT
 

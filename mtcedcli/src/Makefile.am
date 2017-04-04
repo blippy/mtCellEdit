@@ -1,4 +1,6 @@
-AM_CXXFLAGS = -I$(top_srcdir)/libmtkit/src
+AM_CXXFLAGS = -I$(top_srcdir)/libmtkit/src \
+	      -I$(top_srcdir)/libmtcedui/src \
+	      -I$(top_srcdir)/libmtcelledit/src
 
 #include		../_conf.txt
 

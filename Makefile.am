@@ -1,1 +1,2 @@
-SUBDIRS = libmtkit/src  libmtcelledit/src libmtcedui/src mtcedcli/src
+SUBDIRS = libmtkit/src  libmtcelledit/src libmtpixy/src \
+	  libmtcedui/src mtcedcli/src

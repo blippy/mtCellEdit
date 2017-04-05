@@ -11,7 +11,9 @@ AC_PROG_CXX
 AC_PROG_YACC
 
 AC_CONFIG_FILES([Makefile libmtkit/src/Makefile \
-		 libmtcelledit/src/Makefile libmtcedui/src/Makefile
+		 libmtcelledit/src/Makefile \
+		 libmtpixy/src/Makefile \
+		 libmtcedui/src/Makefile \
 		 mtcedcli/src/Makefile])
 AC_OUTPUT
 

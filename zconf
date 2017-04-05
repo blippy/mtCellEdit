@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+#detecting slackware:
+#/etc/os-release:NAME=Slackware
+# sbopkg install qt5
+# stalls at 
+#qt-everywhere-opensource-src-5.7.1/qtscxml/LICENSE.GPL3-EXCEPT
+
+
+PREFIX=$HOME/.local
+export PREFIX
+root=$PWD
+
+function do_stage02 {
+	cd $root/$1
+	./configure --prefix=$PREFIX
+	make
+	make install
+	cd $root
+}
+
+do_stage02 libmtkit
+do_stage02 libmtcelledit
+do_stage02 libmtpixy
+do_stage02 libmtcedui
+do_stage02 mtcedcli # NB special sit for slackware
+
+# in make: 
+# moc -qt5  mtqex5.h -o moc_mtqex5.cpp
+# should be
+# moc   mtqex5.h -o moc_mtqex5.cpp
+do_stage02 libmtqex
+
+
+do_stage02 mtcelledit
+
+

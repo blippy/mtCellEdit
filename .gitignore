@@ -1,0 +1,8 @@
+_conf.txt
+*.so.1
+*.o
+libmtcelledit/src/ced_parser.cpp
+libmtcelledit/src/ced_parser_report.txt
+libmtqex/src/moc_mtqex5.cpp
+mtcedcli/src/mtcedcli
+mtcelledit/src/moc_tk_qt4.cpp

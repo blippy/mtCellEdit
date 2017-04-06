@@ -93,7 +93,7 @@ MTCF_INIT()
 	LIB_INSTALL="$PREFIX/lib"
 	DATA_INSTALL="$PREFIX/share"
 
-	MAN_INSTALL="/usr/share/man/man1"
+	MAN_INSTALL="$DATA_INSTALL/man/man1"
 }
 
 

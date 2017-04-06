@@ -33,5 +33,6 @@ do_stage02 libmtqex
 
 
 do_stage02 mtcelledit
-
+do_stage02 libmtpixyui
+#do_stage02 # mtpixy seems have problems installing man pages
 

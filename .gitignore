@@ -6,3 +6,9 @@ libmtcelledit/src/ced_parser_report.txt
 libmtqex/src/moc_mtqex5.cpp
 mtcedcli/src/mtcedcli
 mtcelledit/src/moc_tk_qt4.cpp
+libmtqex/src/moc_private.cpp
+mtcelledit/desktop/mtcelledit-qt5.desktop
+mtcelledit/desktop/mtcelledit-qt5.xml
+mtcelledit/src/mtcelledit-qt5
+mtcelledit/handbook/en_GB/chap_01.html
+mtcelledit/handbook/en_GB/chap_05.html

@@ -1,56 +1,45 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-<META NAME="generator" CONTENT="http://txt2tags.org">
+<META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <TITLE>The mtCellEdit Handbook - Chapter 5 - Developer Notes</TITLE></HEAD><BODY BGCOLOR="white" TEXT="black">
-<CENTER>
-</CENTER>
+<FONT SIZE="4">
+</FONT></CENTER>
 
 <P>
 <A HREF="chap_04.html">Previous</A> | <A HREF="chap_00.html">Contents</A> | <A HREF="chap_A.html">Next</A>
 </P>
-
 <HR NOSHADE SIZE=1>
-
+<P></P>
 <H1>5. Developer Notes</H1>
-
 <P>
 The best way to learn about the structure of libmtcelledit is to study the public API header file, and the programs that use it.
 </P>
-
 <A NAME="SEC1"></A>
 <H2>5.1 Example Programs</H2>
-
 <P>
 I find libmtcelledit a very useful library when developing my own software so I thought it would be helpful to include a few of these programs with the mtCellEdit package to demonstrate what can be done.
 </P>
-
 <A NAME="SEC11"></A>
 <H3>5.1.1 mtNetLog</H3>
-
 <P>
 This program demonstrates how you can create a small console program to monitor network activity, and then use spreadsheet formulas for accounting.  Data is saved as values in a TSV file so its contents can be read at the command line at any time (even while logging).  You can run this program at bootup and it will record all network activity.  I do this by inserting the following code at the end of file like /etc/rc.d/rc.S or /etc/rc.local :
 </P>
-
 <PRE>
   /usr/bin/mtnetlog -network ppp0 -delay 10 /var/log/mtnetlog_ppp0.tsv &amp;
   /usr/bin/mtnetlog -network eth0 -delay 10 /var/log/mtnetlog_eth0.tsv &amp;
 </PRE>
-
+<P></P>
 <A NAME="SEC12"></A>
 <H3>5.1.2 mtEleana</H3>
-
 <P>
 This program demonstrates how TSV files can be used to index other input files. In this case, mtEleana is a front end to the UK General Election results from 1945 to 2015.
 </P>
-
 <A NAME="SEC14"></A>
 <H3>5.1.3 mtRaft</H3>
-
 <P>
 This program demonstrates how you can use a spreadsheet to make the following jobs easier:
 </P>
-
 <UL>
 <LI>Format numerical output in a table.
 <LI>Table sorting.
@@ -59,18 +48,14 @@ This program demonstrates how you can use a spreadsheet to make the following jo
 
 <A NAME="SEC2"></A>
 <H2>5.2 Porting and Hacking mtCellEdit</H2>
-
 <P>
 mtCellEdit was designed and built on a GNU/Linux system, with the GUI created with the help of Qt4/5.  It should possible to port it anywhere else (with a little effort) as it is just a C/C++ program. I don't have enough time and energy to do this porting myself but feel free to port the code if you want (according to the GNU GPL of course) and tell me or the world about your experiences.
 </P>
-
 <A NAME="SEC21"></A>
 <H3>5.2.1 User Defined Menu Keyboard Shortcuts</H3>
-
 <P>
 If you don't like the default menu keyboard shortcuts, it is possible to change them by tweaking the source code.  This is a fairly easy thing to do:
 </P>
-
 <UL>
 <LI>Edit the file tk_qt4_menu.cpp - adjust the entries in the table inside the function MainWindow::createMenus () near the top of the file.
 <LI>Recompile and reinstall the program.
@@ -78,38 +63,30 @@ If you don't like the default menu keyboard shortcuts, it is possible to change 
 If you want to easily change later versions of mtCellEdit, you will need to create a patch using the following procedure:
 <P></P>
 <LI>Create a backup of gui_main.c:
-
 <PRE>
   cp tk_qt4_menu.cpp tk_qt4_menu.cpp.old
 </PRE>
-
 <P></P>
 <LI>Make the adjustments to tk_qt4_menu.cpp as you require.
 <LI>Create a patch file:
-
 <PRE>
   diff -up tk_qt4_menu.cpp.old tk_qt4_menu.cpp &gt; ~/mtcelledit_shortcuts.diff
 </PRE>
-
 <P></P>
 <LI>For each new release of mtCellEdit you apply your changes using:
-
 <PRE>
   patch -p0 &lt; ~/mtcelledit_shortcuts.diff
 </PRE>
-
 </UL>
 
 <A NAME="SEC3"></A>
 <H2>5.3 Command Line Examples</H2>
-
 <P>
 Because the TSV file format is so simple its very easy to read using the command line or a script.  This is completely independent of the mtCellEdit GUI or even the core libmtcelledit library.  This ensures that your data is completely accessible on any properly equipped GNU operating system.
 </P>
 <P>
 Here is a summary of some useful commands for manipulating a TSV spreadsheet:
 </P>
-
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD><B>Command</B></TD>
@@ -168,7 +145,6 @@ Here is a summary of some useful commands for manipulating a TSV spreadsheet:
 <P>
 The shell also provides the usual redirections:
 </P>
-
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>&gt;</TD>
@@ -182,26 +158,21 @@ The shell also provides the usual redirections:
 
 <A NAME="SEC31"></A>
 <H3>5.3.1 awk</H3>
-
 <P>
 Writing a small awk program to process a TSV sheet offers a few advantages over a C++ program. For example some simple tasks require just a few awk instructions to complete, compared to a C++ program that would need to be much larger and therefore more time consuming to create and maintain.
 </P>
-
 <A NAME="SEC311"></A>
 <H4>5.3.1.1 mtNetLog Queries</H4>
-
 <P>
 You can use the awk program to process the TSV file created by mtNetLog and present the data in a more human readable form like this:
 </P>
-
 <PRE>
   cat /var/log/mtnetlog_ppp0.tsv | awk -F "\t" 'NR==2{for (i=1; i&lt;=68; i++) printf "-"; printf "\n"} NR!=2{printf "%20s %10.2fMB %10.2fMB %10.2fMB %8.2f\n", $1, $7, $8, $9, 100*$8/$7}'
 </PRE>
-
+<P></P>
 <P>
 Which displays the in/out/total columns and a perctange of input to output flow. This will convert the data from this file:
 </P>
-
 <PRE>
   		61.555277776904	253420306	30916922	330063404	301.02403259277	13.748958587646	314.77299118042
   'Start	'End	'Hours	'Bytes In	'Bytes Out	'Bytes Total	'MB In	'MB Out	'MB Total
@@ -211,11 +182,10 @@ Which displays the in/out/total columns and a perctange of input to output flow.
   2010-11-20 10:09:43	2010-11-21 02:21:46	16.200833332725	84574392	1741061	56100792	52.855527877808	0.6463565826416	53.501884460449
   2010-11-21 12:29:45	2010-11-21 15:00:05	2.5055555552244	49447181	8898110	80387745	74.810985565186	1.8527421951294	76.663727760315
 </PRE>
-
+<P></P>
 <P>
 Into this:
 </P>
-
 <PRE>
                            301.02MB      13.75MB     314.77MB     4.57
   --------------------------------------------------------------------
@@ -225,19 +195,17 @@ Into this:
    2010-11-20 10:09:43      52.86MB       0.65MB      53.50MB     1.22
    2010-11-21 12:29:45      74.81MB       1.85MB      76.66MB     2.48
 </PRE>
-
+<P></P>
 <P>
 You can also use the sort command line program in order to sort according to a given field:
 </P>
-
 <PRE>
   cat /var/log/mtnetlog_ppp0.tsv | tail -n+3 | sort -t $'\t' -nk 3 | awk -F "\t" '{ printf "%s\t%5.2f hours\n", $1, $3 }'
 </PRE>
-
+<P></P>
 <P>
 Creates this output:
 </P>
-
 <PRE>
   2010-11-21 12:29:45	 2.51 hours
   2010-11-10 12:10:42	12.47 hours
@@ -245,17 +213,15 @@ Creates this output:
   2010-11-14 09:59:13	15.62 hours
   2010-11-20 10:09:43	16.20 hours
 </PRE>
-
+<P></P>
 <A NAME="SEC312"></A>
 <H4>5.3.1.2 mtEleana Queries</H4>
-
 <P>
 Awk is able to process the mtEleana data very easily due to the simplicity of the files.  For example here is an awk program to calculate the total number of votes for each political party:
 </P>
 <P>
 <A HREF="../shawk/party_totals.awk">DOWNLOAD FILE</A>
 </P>
-
 <PRE>
   # party_totals.awk
   # by Mark Tyler 6th December 2010
@@ -285,11 +251,10 @@ Awk is able to process the mtEleana data very easily due to the simplicity of th
   	}
   }
 </PRE>
-
+<P></P>
 <P>
 The output from the second example is as follows:
 </P>
-
 <PRE>
   Conservative	10703654
   Labour	8606517
@@ -302,80 +267,67 @@ The output from the second example is as follows:
   Sinn Fein	171942
   Democratic Unionist Party	168216
 </PRE>
-
+<P></P>
 <A NAME="SEC313"></A>
 <H4>5.3.1.3 Splitting fixed width text files</H4>
-
 <P>
 If a text file contains a rectangular lump of text with various columns set up using spaces it is possible to chop this up into a TSV file ready for spreadsheet editing:
 </P>
-
 <PRE>
   cat fixed.txt | awk -v FIELDWIDTHS='20 11 2 11 2 11 2 9' -v OFS='\t' '{ $1=$1; print }' &gt; fixed.tsv
 </PRE>
-
+<P></P>
 <P>
 This cuts up the output from the mtnetlog example in 5.3.1.1.  You may also want to remove spaces using the following sections.
 </P>
-
 <A NAME="SEC314"></A>
 <H4>5.3.1.4 Removing all spaces</H4>
-
 <PRE>
   cat fixed.tsv | tr -d " "
 </PRE>
-
+<P></P>
 <P>
 This is a very crude and indiscriminate weapon of mass destruction, so care is needed when using it. For example it destroys the space between the date and time in the example from cutting up the text from 5.3.1.1.  To avoid this problem use the following example.
 </P>
-
 <A NAME="SEC315"></A>
 <H4>5.3.1.5 Removing all leading and trailing spaces</H4>
-
 <P>
 You can use sed or awk to chop off leading and trailing spaces in each cell. This is useful if you want to preserve the spaces within the cell, but remove useless spaces after splitting a fixed width file:
 </P>
-
 <PRE>
   cat fixed.tsv | sed -e "s/^[ ]\+//" | sed -e "s/[ ]\+$//" | sed -e "s/\t[ ]\+/\t/g" | sed -e "s/[ ]\+\t/\t/g"
   
   cat fixed.tsv | awk '{ sub( /^ +/, "" ); sub( / +$/, "" );  gsub( /\t +/, "\t" ); gsub( / +\t/, "\t" ); print }'
 </PRE>
-
+<P></P>
 <A NAME="SEC316"></A>
 <H4>5.3.1.6 Creating fixed width text files</H4>
-
 <P>
 To reverse the operation in 5.3.1.3 and to create a fixed width file from a TSV file:
 </P>
-
 <PRE>
   cat fixed.tsv | awk -v FS='\t' '{ printf "%20s%11s%2s%11s%2s%11s%2s%9s\n", $1, $2, $3, $4, $5, $6, $7, $8 }'
 </PRE>
-
+<P></P>
 <P>
 In this example, we want all of the chunks of text to be right justified, but if we wanted to have them left aligned we would simply place a '-' before the number like this:
 </P>
-
 <PRE>
   cat fixed.tsv | awk -v FS='\t' '{ printf "%-20s%-11s%-2s%-11s%-2s%-11s%-2s%-9s\n", $1, $2, $3, $4, $5, $6, $7, $8 }'
 </PRE>
-
+<P></P>
 <A NAME="SEC32"></A>
 <H3>5.3.2 unzip</H3>
-
 <P>
 The command line program unzip allows you to access the sheets held inside a CED/ZIP file. Here is an example using the example data in the file 'test_suite.tsv.zip' from the mtCellEdit source code distribution:
 </P>
-
 <PRE>
   unzip -p test_suite.tsv.zip "test_suite.tsv/sheet/Data (1959 GE)" | awk -F "\t" 'NR&gt;340 {  printf "%s - %s\n", $1, $2 } NR&gt;350 {exit}'
 </PRE>
-
+<P></P>
 <P>
 This outputs the first 2 columns from rows 341 to 350, which results in this being displayed:
 </P>
-
 <PRE>
   'King's Lynn - 'DG Bullard
   'Kingston upon Thames - 'JA Boyd-Carpenter
@@ -389,19 +341,17 @@ This outputs the first 2 columns from rows 341 to 350, which results in this bei
   'Leeds North East - 'K Joseph
   'Leeds North West - 'D Kaberry
 </PRE>
-
+<P></P>
 <P>
 As you can see it prints out the ' character at the beginning of each field which is undesirable, so we ask awk to cut this out for us using the sub function:
 </P>
-
 <PRE>
   unzip -p test_suite.tsv.zip "test_suite.tsv/sheet/Data (1959 GE)" | awk -F "\t" 'NR&gt;340 { sub(/^\x27/, "", $0); gsub(/\x09\x27/, "\t", $0); printf "%s - %s\n", $1, $2 } NR&gt;350 {exit}'
 </PRE>
-
+<P></P>
 <P>
 Which creates this:
 </P>
-
 <PRE>
   King's Lynn - DG Bullard
   Kingston upon Thames - JA Boyd-Carpenter
@@ -415,19 +365,17 @@ Which creates this:
   Leeds North East - K Joseph
   Leeds North West - D Kaberry
 </PRE>
-
+<P></P>
 <P>
 If you wanted to see the last 10 rows in a file you would simply call the tail command first:
 </P>
-
 <PRE>
   unzip -p test_suite.tsv.zip "test_suite.tsv/sheet/Data (1959 GE)" | tail | awk -F "\t" '{ sub(/^\x27/, "", $1); sub(/^\x27/, "", $2); printf "%s - %s\n", $1, $2 }'
 </PRE>
-
+<P></P>
 <P>
 Which creates this:
 </P>
-
 <PRE>
   Worcester - GR Ward
   Worcestershire South - PG Agnew
@@ -440,52 +388,44 @@ Which creates this:
   Yeovil - JWW Peyton
   York - CB Longbottom
 </PRE>
-
+<P></P>
 <A NAME="SEC33"></A>
 <H3>5.3.3 zcat</H3>
-
 <P>
 If you have saved some TSV data inside a compressed GZ file you cat use the zcat command to access this data.  This example extracts the first and third columns from a file and stores the results in a new compressed output file:
 </P>
-
 <PRE>
   zcat input.tsv.gz | awk -F "\t" '{ printf "%s\t%s\n", $1, $3 }' | gzip &gt; output.tsv.gz
 </PRE>
-
+<P></P>
 <A NAME="SEC34"></A>
 <H2>5.3.4 tr</H2>
-
 <A NAME="SEC341"></A>
 <H3>5.3.4.1 Changing Field Separators</H3>
-
 <P>
 Occasionally you may come across a file with an unusual field separator such as : ; or @. Assuming these characters only exist as field separators then its very easy to swap the characters to tabs using tr:
 </P>
-
 <PRE>
   cat input.txt | tr "@" "\t" &gt; output.tsv
 </PRE>
-
+<P></P>
 <P>
 For exotic multi-character separators like @;@ you can use awk:
 </P>
-
 <PRE>
   cat input.txt | awk '{ gsub( /@;@/, "\t" ); print }' &gt; output.tsv
 </PRE>
-
+<P></P>
 <P>
 You can also change a normal TSV file into a file with rather more eccentric field separators:
 </P>
-
 <PRE>
   cat input.tsv | tr "\t" "@" &gt; output.txt
   cat input.tsv | awk '{ gsub( /\t/, "@;@" ); print }' &gt; output.txt
 </PRE>
-
+<P></P>
 <A NAME="SEC4"></A>
 <H2>5.4 cedutils</H2>
-
 <P>
 As mentioned in section 5.3, a GNU system can manipulate a TSV file in a number of ways. However there are some jobs that are not possible to complete quickly and easily so I have assembled a group of command line utilities that can be used by the shell to manipulate spreadsheet files.
 </P>
@@ -495,58 +435,50 @@ These utilities are designed for accessing CSV or TSV files using basic scripts.
 <P>
 These utilities are accessed via the binary program cedutils.  You access its functions by calling it via a symlink to execute a single command.  Because all commands really exist in a central program, it is also possible to do multiple different operations within the same line by using the argument "-com" followed by the new command.  The advantage of this is in terms of speed and fewer file operations.  When you call 2 commands separately in two script lines, you action a load and a save operation twice.  However, with multiple commands in a single line you only have a single load and a single save operation which saves CPU cycles, and involves fewer file read/write operations.  Here is an example which flips a sheet and inserts 10 empty rows:
 </P>
-
 <PRE>
   cedflip input.tsv -com insert -total 10 "" -o output.tsv
 </PRE>
-
+<P></P>
 <P>
 Compare this to the two operations done separately:
 </P>
-
 <PRE>
   cedflip input.tsv -o output.tsv
   cedinsert -total 10 output.tsv -o output.tsv
 </PRE>
-
+<P></P>
 <P>
 More information can be obtained by consulting the man page:
 </P>
-
 <PRE>
   man cedutils
 </PRE>
-
+<P></P>
 <A NAME="SEC5"></A>
 <H2>5.5 mtcedcli</H2>
-
 <P>
 mtCedCLI is a program that provides spreadsheet functionality via a Command Line Interface (CLI).  It offers exactly the same functions as the GUI based mtCellEdit, but instead uses text commands.
 </P>
 <P>
 Both GUI's and CLI's have value, and allow particular jobs to be done more efficiently.  For example I use mtCedCLI as part of the testing phase before I release the whole mtCellEdit suite.  I have created a number of tests in the form of scripts which test each part of the core libraries.  This exposes any problems that may have crept into the code, and is a good form of regression testing.
 </P>
-
 <A NAME="SEC51"></A>
 <H3>5.5.1 Commands</H3>
-
 <P>
 mtCedCLI reads instructions from the user via GNU Readline.  This offers useful interactive facilities like using the up and down arrows to access previous commands.
 </P>
 <P>
 It is also possible to run a script from the command line like these examples:
 </P>
-
 <PRE>
   cat script.txt | mtcedcli
   mtcedcli &lt; script.txt
   mtcedcli &lt; script.txt &gt; log.txt 2&gt;&amp;1
 </PRE>
-
+<P></P>
 <P>
 Here is the complete list of commands that mtCedCLI accepts:
 </P>
-
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD><B>Command</B></TD>
@@ -927,7 +859,6 @@ Here is the complete list of commands that mtCedCLI accepts:
 
 <A NAME="SEC52"></A>
 <H3>5.5.2 Book File Types</H3>
-
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>tsv_book</TD>
@@ -945,7 +876,6 @@ Here is the complete list of commands that mtCedCLI accepts:
 
 <A NAME="SEC53"></A>
 <H3>5.5.3 Graph Output Types</H3>
-
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>eps</TD>
@@ -966,7 +896,6 @@ Here is the complete list of commands that mtCedCLI accepts:
 
 <A NAME="SEC54"></A>
 <H3>5.5.4 Sheet Output Types</H3>
-
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>eps</TD>
@@ -999,7 +928,6 @@ Here is the complete list of commands that mtCedCLI accepts:
 
 <A NAME="SEC55"></A>
 <H3>5.5.5 Sheet Types</H3>
-
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>tsv</TD>
@@ -1047,7 +975,6 @@ Here is the complete list of commands that mtCedCLI accepts:
 
 <A NAME="SEC56"></A>
 <H3>5.5.6 Cell Border Codes</H3>
-
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>-1</TD>
@@ -1081,7 +1008,7 @@ Here is the complete list of commands that mtCedCLI accepts:
 
 <PRE>
 </PRE>
-
+<P></P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD></TD>
@@ -1139,7 +1066,7 @@ Here is the complete list of commands that mtCedCLI accepts:
 
 <PRE>
 </PRE>
-
+<P></P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD></TD>
@@ -1197,28 +1124,22 @@ Here is the complete list of commands that mtCedCLI accepts:
 
 <A NAME="SEC57"></A>
 <H3>5.5.7 Sorting Expressions</H3>
-
 <P>
 &lt;INTEGER&gt; , &lt; a | d &gt; [c] [ , ... ]
 </P>
 <P>
 For example, expression <B>1,ac,2,d</B> sorts by row/column 1 (ascending, case sensitive), then row/column 2 (descending).
 </P>
-
 <A NAME="SEC58"></A>
 <H3>5.5.8 Shell Scripts</H3>
-
 <P>
 Because the interface to mtCedCLI is just text, this means that shell scripts can control the program.
 </P>
-
 <A NAME="SEC581"></A>
 <H4>5.5.8.1 Putting Several Sheets into a Book</H4>
-
 <P>
 <A HREF="../shawk/cedsheetbook.sh">DOWNLOAD FILE</A>
 </P>
-
 <PRE>
   #!/bin/sh
   # cedsheetbook.sh - Puts sheet files into a single book file
@@ -1240,27 +1161,24 @@ Because the interface to mtCedCLI is just text, this means that shell scripts ca
   
   echo "save"
 </PRE>
-
+<P></P>
 <P>
 The handy thing with this approach is that you can dry run the script first
 by using:
 </P>
-
 <PRE>
   ./cedsheetbook.sh ~/output.zip *.tsv *.csv
 </PRE>
-
+<P></P>
 <P>
 If you are happy with the text output then you can commit the actions with:
 </P>
-
 <PRE>
   ./cedsheetbook.sh ~/output.zip *.tsv *.csv | mtcedcli
 </PRE>
-
+<P></P>
 <A NAME="SEC582"></A>
 <H4>5.5.8.2 Extracting Sheets From a Book</H4>
-
 <P>
 The following script does the reverse of the first script.
 It reads a ZIP file and extracts all of the sheets to TSV files in the
@@ -1269,7 +1187,6 @@ given directory.
 <P>
 <A HREF="../shawk/cedbooksplit.sh">DOWNLOAD FILE</A>
 </P>
-
 <PRE>
   #!/bin/sh
   # cedbooksplit.sh - Extracts the sheets from a book
@@ -1316,13 +1233,12 @@ given directory.
   
   echo
 </PRE>
-
+<P></P>
 <HR NOSHADE SIZE=1>
-
 <P>
 <A HREF="chap_04.html">Previous</A> | <A HREF="chap_00.html">Contents</A> | <A HREF="chap_A.html">Next</A>
 </P>
 
-<!-- html code generated by txt2tags 2.6 (http://txt2tags.org) -->
+<!-- html code generated by txt2tags 2.5 (http://txt2tags.sf.net) -->
 <!-- cmdline: txt2tags -t html -o chap_05.html chap_05.t2t -->
 </BODY></HTML>
